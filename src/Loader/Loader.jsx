@@ -1,18 +1,19 @@
-
 import { useProgress } from "@react-three/drei";
 import { useEffect, useState } from "react";
-import "./loader.scss";
-import Logo from "../components/ui/logo/Logo";
-import LogoIcon from "../components/ui/logo-icon/LogoIcon";
 
+import "./loader.scss";
 
 export default function Loader() {
   const { progress, active } = useProgress();
+
   const [visible, setVisible] = useState(true);
+  const [displayProgress, setDisplayProgress] = useState(0);
 
   useEffect(() => {
-    // console.log("Loader:", { active, progress });
+    setDisplayProgress((previous) => Math.max(previous, progress));
+  }, [progress]);
 
+  useEffect(() => {
     if (!active && progress === 100) {
       const timeout = setTimeout(() => {
         setVisible(false);
@@ -26,28 +27,20 @@ export default function Loader() {
 
   return (
     <div className="loader">
-
-      
-
       <div className="loader__content">
-
-        
         <p className="loader__label">Loading experience</p>
 
         <p className="loader__percentage">
-          {Math.round(progress)}%
+          {Math.round(displayProgress)}%
         </p>
 
         <div className="loader__track">
           <div
             className="loader__bar"
-            style={{ width: `${progress}%` }}
+            style={{ width: `${displayProgress}%` }}
           />
         </div>
-        
       </div>
-
     </div>
   );
 }
-
