@@ -17,6 +17,7 @@ import Areas from './components/sections/areas/Areas.jsx'
 import Location from './components/sections/location/Location.jsx'
 
 import { useBreakpoint } from './components/hooks/useBreakpoint.js'
+import Loader from './Loader/Loader.jsx'
 
 
 function App() {
@@ -64,6 +65,8 @@ function App() {
 
   return (
     <>
+      <Loader />
+
       <Navbar />
 
       <HeroTexts />

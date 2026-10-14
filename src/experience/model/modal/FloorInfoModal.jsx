@@ -13,10 +13,8 @@ export default function FloorInfoModal({floor, onClose }) {
     if (floor === null) return null
 
     //aca deberia enviar al useState que esta abierto el modal 
-
-
     const currentData = floorData[floor]
-    // console.log(currentData)
+   
      return (
         
 
