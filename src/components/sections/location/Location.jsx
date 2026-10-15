@@ -1,5 +1,5 @@
 import "./location.scss"
-import locationImage from "@/assets/images/location.png"
+import locationImage from "@/assets/images/location.webp"
 
 export default function Location () {
     

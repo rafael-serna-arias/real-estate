@@ -1,12 +1,12 @@
-import FirstFloor from "@/assets/images/first-floor.png"
-import SecondFloor from "@/assets/images/second-floor.png"
-import ThirdFloor from "@/assets/images/third-floor.png"
-import RoofFloor from "@/assets/images/roof-floor.png"
+import FirstFloor from "@/assets/images/first-floor.webp"
+import SecondFloor from "@/assets/images/second-floor.webp"
+import ThirdFloor from "@/assets/images/third-floor.webp"
+import RoofFloor from "@/assets/images/roof-floor.webp"
 
-import PlanFloor1 from "@/assets/images/plan-floor-1.png"
-import PlanFloor2 from "@/assets/images/plan-floor-2.png"
-import PlanFloor3 from "@/assets/images/plan-floor-3.png"
-import PlanRoof from "@/assets/images/plan-roof.png"
+import PlanFloor1 from "@/assets/images/plan-floor-1.webp"
+import PlanFloor2 from "@/assets/images/plan-floor-2.webp"
+import PlanFloor3 from "@/assets/images/plan-floor-3.webp"
+import PlanRoof from "@/assets/images/plan-roof.webp"
 
 
 

@@ -42,18 +42,18 @@ import * as THREE from 'three'
 export function Building(props) {
   const { nodes } = useGLTF('models/building1-compression.glb')
 
-  const facadeTexture = useTexture('/textures/facade1.2.jpg')
-  const condoFloorTexture = useTexture('/textures/condo-floor2.jpg')
-  const buildingFloorTexture = useTexture('/textures/building-floor.jpg')
-  const whiteWallsTexture = useTexture('/textures/white-walls5.jpg')
-  const metalFrames= useTexture('/textures/metal-frames2.jpg')
-  const ceiling= useTexture('/textures/ceiling1.2.jpg')
-  const furniture1= useTexture('/textures/furniture1.1.jpg')
-  const furniture2= useTexture('/textures/furniture2.jpg')
-  const furniture3= useTexture('/textures/furniture3.1.jpg')
-  const furniture4= useTexture('/textures/furniture4.jpg')
-  const garden= useTexture('/textures/garden.jpg')
-  const pictures= useTexture('/textures/picture1.2.jpg')
+  const facadeTexture = useTexture('/textures/facade1.2.webp')
+  const condoFloorTexture = useTexture('/textures/condo-floor2.webp')
+  const buildingFloorTexture = useTexture('/textures/building-floor.webp')
+  const whiteWallsTexture = useTexture('/textures/white-walls5.webp')
+  const metalFrames= useTexture('/textures/metal-frames2.webp')
+  const ceiling= useTexture('/textures/ceiling1.2.webp')
+  const furniture1= useTexture('/textures/furniture1.1.webp')
+  const furniture2= useTexture('/textures/furniture2.webp')
+  const furniture3= useTexture('/textures/furniture3.1.webp')
+  const furniture4= useTexture('/textures/furniture4.webp')
+  const garden= useTexture('/textures/garden.webp')
+  const pictures= useTexture('/textures/picture1.2.webp')
 
 
   facadeTexture.flipY = false

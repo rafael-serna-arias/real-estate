@@ -3,8 +3,8 @@ import "./roof-info-modal.scss"
 
 import CloseIcon from "../../../components/ui/x-icon/CloseIcon"
 
-import RoofFloor from "@/assets/images/roof-floor.png"
-import PlanRoof from "@/assets/images/plan-roof.png"
+import RoofFloor from "@/assets/images/roof-floor.webp"
+import PlanRoof from "@/assets/images/plan-roof.webp"
 
 export default  function RoofInfoModal ({ floor, onClose }) {
 
